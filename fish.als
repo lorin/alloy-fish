@@ -42,10 +42,10 @@ Red in Brit.occupies.color
 
 Dogs in Swede.keeps
 
+// The Dane drinks tea
+Tea in Dane.drinks
 
 /*
-
-The Dane drinks tea
 The green house is on the left of the white house
 The green house's owner drinks coffee
 The person who smokes Pall Mall rears birds
