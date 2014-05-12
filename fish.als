@@ -54,11 +54,26 @@ Coffee in (occupies.(color.Green)).drinks
 // The person who smokes Pall Mall rears birds
 Birds in (smokes.PallMall).keeps
 
+// The owner of the yellow house smokes Dunhill
+Dunhill in (occupies.(color.Yellow)).smokes
+
+// The man living in the centre house drinks milk
+/*
+There isn't an easy way get the "centre" with ordering,
+so we just assert that we are less than the second to largest
+and greater than second to smallest
+*/
+lt[(drinks.Milk).occupies, prev[last[]]]
+gt[(drinks.Milk).occupies, next[first[]]]
+
+
+   
+
+
+
 /*
 
 
-The owner of the yellow house smokes Dunhill
-The man living in the centre house drinks milk
 The Norwegian lives in the first house
 The person who smokes Marlboro lives next to the one who keeps cats
 The person who keeps horses lives next to the person who smokes Dunhill
