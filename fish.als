@@ -31,7 +31,7 @@ abstract sig Pet {}
 one sig Birds, Cats, Dogs, Horses, Fish extends Pet {}
 
 abstract sig Cigarette {}
-one sig PallMal, Dunhill, Marlboro, Winfield, Rothmans extends Cigarette {}
+one sig PallMall, Dunhill, Marlboro, Winfield, Rothmans extends Cigarette {}
 
 pred problemConstraints {
 
@@ -48,10 +48,15 @@ Tea in Dane.drinks
 // The green house is on the left of the white house
 Green in prev[color.White].color 
 
+// The green house's owner drinks coffee
+Coffee in (occupies.(color.Green)).drinks
+
+// The person who smokes Pall Mall rears birds
+Birds in (smokes.PallMall).keeps
+
 /*
 
-The green house's owner drinks coffee
-The person who smokes Pall Mall rears birds
+
 The owner of the yellow house smokes Dunhill
 The man living in the centre house drinks milk
 The Norwegian lives in the first house
