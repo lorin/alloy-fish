@@ -67,15 +67,14 @@ lt[(drinks.Milk).occupies, prev[last[]]]
 gt[(drinks.Milk).occupies, next[first[]]]
 
 
-   
+// The Norwegian lives in the first house
+Norwegian in occupies.first[]
 
+// The person who smokes Marlboro lives next to the one who keeps cats
 
+(smokes.Marlboro).occupies in (keeps.Cats).occupies.(next + prev)
 
 /*
-
-
-The Norwegian lives in the first house
-The person who smokes Marlboro lives next to the one who keeps cats
 The person who keeps horses lives next to the person who smokes Dunhill
 The person who smokes Winfield drinks beer
 The German smokes Rothmans
