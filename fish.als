@@ -84,11 +84,12 @@ Beer in (smokes.Winfield).drinks
 // The German smokes Rothmans
 German in smokes.Rothmans
 
+// The Norwegian lives next to the blue house
+Blue in Norwegian.occupies.(next+prev).color
 
-/*
-The Norwegian lives next to the blue house
-The person who smokes Marlboro has a neigbor who drinks water
-*/
+// The person who smokes Marlboro has a neigbor who drinks water
+(drinks.Water).occupies in (smokes.Marlboro).occupies.(next+prev)
+
 
 }
 
