@@ -74,8 +74,11 @@ Norwegian in occupies.first[]
 
 (smokes.Marlboro).occupies in (keeps.Cats).occupies.(next + prev)
 
+// The person who keeps horses lives next to the person who smokes Dunhill
+(keeps.Horses).occupies in (smokes.Dunhill).occupies.(next + prev)
+
+
 /*
-The person who keeps horses lives next to the person who smokes Dunhill
 The person who smokes Winfield drinks beer
 The German smokes Rothmans
 The Norwegian lives next to the blue house
