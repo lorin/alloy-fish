@@ -38,8 +38,13 @@ pred problemConstraints {
 // The Brit lives in the red house
 Red in Brit.occupies.color
 
+//The Swede keeps dogs as pets
+
+Dogs in Swede.keeps
+
+
 /*
-The Swede keeps dogs as pets
+
 The Dane drinks tea
 The green house is on the left of the white house
 The green house's owner drinks coffee
