@@ -56,14 +56,7 @@ pred problemConstraints {
     Dunhill in (occupies.(color.Yellow)).smokes
 
     // The man living in the centre house drinks milk
-    /*
-    There isn't an easy way get the "centre" with ordering,
-    so we just assert that we are less than the second to largest
-    and greater than second to smallest
-    */
-    lt[(drinks.Milk).occupies, prev[last[]]]
-    gt[(drinks.Milk).occupies, next[first[]]]
-
+	(drinks.Milk).occupies in first[].next.next
 
     // The Norwegian lives in the first house
     Norwegian in occupies.first[]
