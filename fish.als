@@ -45,8 +45,11 @@ Dogs in Swede.keeps
 // The Dane drinks tea
 Tea in Dane.drinks
 
+// The green house is on the left of the white house
+Green in prev[color.White].color 
+
 /*
-The green house is on the left of the white house
+
 The green house's owner drinks coffee
 The person who smokes Pall Mall rears birds
 The owner of the yellow house smokes Dunhill
