@@ -2,6 +2,8 @@
 
 Use an Alloy model to solve the logic problem: [Who owns the fish?][1]
 
+There are five houses in five different colours starting from left to right. In each house lives a person of a different nationality. These owners all drink a certain type of beverage, smoke a certain brand of cigarette and keep a certain type of pet. No two owners have the same pet, smoke the same brand or drink the same beverage. The question is: WHO OWNS THE FISH??? 
+
 The constraints are:
 
 
